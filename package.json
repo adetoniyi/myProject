@@ -1,16 +1,22 @@
 {
-  "name": "myproject",
+  "name": "real-estate-ecommerce-platform",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Real Estate E-commerce Platform Backend",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "Real",
+    "Estate",
+    "E-commerce",
+    "Platform"
+  ],
+  "author": "Adetoniyi",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
